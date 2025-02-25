@@ -140,3 +140,15 @@ input[type="text"]:focus {
     background: rgba(255, 255, 255, 0.25);  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
