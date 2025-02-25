@@ -26,7 +26,7 @@ document.querySelector('#movie-form').addEventListener('submit', async (e) => {
                 messages: [
                     { 
                         "role": "user", 
-                        "content": `Give me 3 movie suggestions similar to "${movieInput}".
+                        "content": `Give me 6 movie suggestions similar to "${movieInput}".
                                     For each suggestion, provide the title and release year in this exact format: 
                                     "Title (Year)". No other text or description.` 
                     }
