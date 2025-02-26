@@ -14,7 +14,7 @@ document.querySelector('#movie-form').addEventListener('submit', async (e) => {
     document.querySelector('#suggestions').innerHTML = 'Loading...';
 
     try {
-        // Request movie suggestions from OpenAI
+        //requesting movie suggestions from OpenAI
         const response = await fetch('https://api.openai.com/v1/chat/completions', {
             method: 'POST',
             headers: {
