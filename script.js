@@ -1,8 +1,6 @@
-const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
-const TMDB_API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-
-console.log('OPENAI Key:', OPENAI_API_KEY);
-console.log('TMDB Key:', TMDB_API_KEY);
+//access keys from config.js
+const OPENAI_API_KEY = config.OPENAI_API_KEY;
+const TMDB_API_KEY = config.TMDB_API_KEY;
 
 //event listener for the form submission
 document.querySelector('#movie-form').addEventListener('submit', async (e) => {
